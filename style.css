@@ -723,3 +723,30 @@ footer p {
 .search-box input:disabled {
     background: transparent;
 }
+
+.done-button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.done-button:hover {
+    background-color: #15803d;
+}
+
+.done-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.completed-label {
+    display: inline-block;
+    color: #15803d;
+    font-weight: 600;
+    margin-top: 10px;
+}
